@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bova{
+    border-radius: 10px;
+    width: 85%;
+    padding-right: 15px;
+}
+.btn-bov{
+    border-radius: 10px;
+    width: 100%;
+    padding-right: 15px;
+    color: rgb(37, 7, 44);
+    background-color: rgb(255, 255, 255);
+    border-color:rgb(29, 4, 36);
+}
+.btn-bov:hover{
+    border-radius: 10px;
+    width: 100%;
+    padding-right: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(47, 12, 61);
+    border-color:rgb(41, 7, 44);
+}
+.centa{
+    text-align: center;
+    vertical-align: middle;
+}
+.form-ra{
+    border-radius: 10px;
+    width: 85%;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    padding-left: 15px;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+}
+#wrapper{
+    width: 800px;
+    margin: 0 auto;
+}
+.card2a{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    background-clip: border-box;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 10px;
+}
+.min-mb-10{
+    margin-bottom: -10px;
+}
+.min.mt-10{
+    margin-top: -10px;
+}
+.w-100{
+    width: 100%;
+}
+.w-100:hover{
+    width: 100%;
+}
+.w-180{
+    width: 100%;
+}
+.w-180:hover{
+    width: 100%;
+}
+.navbar-brand{
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.navbar-brand .nav-indigo-800{
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 5, 31);
+    text-decoration: none;
+}
+.nav-indigo-800{
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 5, 31);
+    text-decoration: none;
+    cursor: default;
+    pointer-events: none;
+}
+@media (min-width: 768px){
+    .md\:container{
+        max-width: 100%;
+    }
+    @media (min-width: 640px){
+        .md\:container{
+            max-width: 640px;
+        }
+    }
+    @media (min-width:768px){
+        .md\:container{
+            max-width: 768px;
+        }
+    }
+    @media (min-width:1024px){
+        .md\:container{
+            max-width: 1024px;
+        }
+    }
+    @media (min-width:1280px){
+        .md\:container{
+            max-width: 1280px;
+        }
+    }
+    .md\:flex{
+        display: flex;
+    }
+    .md\:flex-row{
+        flex-direction: row;
+    }
+    .md\:grid{
+        display: grid;
+    }
+    .md\:hidden{
+        display: none;
+    }
+    .md\:items-start{
+        align-items: flex-start;
+    }
+    .md\:items-end{
+        align-items: flex-end;
+    }
+    .md\:items-center{
+        align-items: center;
+    }
+    .md\:w-auto{
+        width: auto;
+    }
+    .md\:w-215{
+        width: 215%;
+    }
+    .md\:w-180{
+        width: 180%;
+    }
+    .md\:w-100{
+        width: 100%;
+    }
+    .md\:w-100:hover{
+        width: 100%;
+    }
+    .md\:w-85{
+        width: 85%;
+    }
+    .md\:w-85:hover{
+        width: 85%;
+    }
+    .md\:w-70{
+        width: 70%;
+    }
+    .md\:w-70:hover{
+        width: 70%;
+    }
+    .md\:w-71{
+        width: 71%;
+    }
+    .md\:w-71:hover{
+        width: 71%;
+    }
+    .md\:w-72{
+        width: 72%;
+    }
+    .md\:w-72:hover{
+        width: 72%;
+    }
+    .md\:w-73{
+        width: 73%;
+    }
+    .md\:w-73:hover{
+        width: 73%;
+    }
+    .md\:w-74{
+        width: 74%;
+    }
+    .md\:w-74:hover{
+        width: 74%;
+    }
+    .md\:w-75{
+        width: 75%;
+    }
+    .md\:w-75:hover{
+        width: 75%;
+    }
+    .md\:card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    background-clip: border-box;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 10px;
+    }
+    .md\:form-ra{
+    border-radius: 10px;
+    width: 40%;
+    height: 40px;
+    font-size: 15px;
+    outline: none;
+    padding-left: 15px;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    }
+    .md\:fw-200{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .md\:fw-200{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .md\:middle{
+        align-content: center;
+        text-align: center;
+    }
+}
+.items-center{
+    place-content: center;
+}
+.fw-700{
+    font-size: 50px;
+    font-weight: 700;
+}
+.middle{
+    align-content: center;
+    text-align: center;
+}
